@@ -1,15 +1,8 @@
-.images {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: center;
+h1 {
     font-family: 'Quicksand', sans-serif;
-    justify-content: center;
-    max-width: 50%;
-    height: auto;
-    margin: auto;
-    padding: 3em;
-    
+    text-align: center;
+    color: rgba(35, 1, 66, 0.925);
+    letter-spacing: 2px;
 }
 
 body {
@@ -24,21 +17,42 @@ main {
     padding: 2rem 0;
 }
 
-h1 {
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    color: rgba(35, 1, 66, 0.925);
-    letter-spacing: 2px;
-}
-
 h2 {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     color: rgba(35, 1, 66, 0.925);
 }
 
+.images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 2em; 
+}
+
+.artObject {
+    border: 2em solid white;
+    margin-bottom: 3em;
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+
 footer {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     color: rgba(35, 1, 66, 0.925);
 }
+
