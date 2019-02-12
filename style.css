@@ -1,0 +1,44 @@
+.images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+    padding: 3em;
+    
+}
+
+body {
+    background-image: linear-gradient(to right, rgba(253, 93, 93, 0.281), rgb(190, 95, 135));
+    background-size: cover;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 2rem 0;
+}
+
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: rgba(35, 1, 66, 0.925);
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: rgba(35, 1, 66, 0.925);
+}
+
+footer {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: rgba(35, 1, 66, 0.925);
+}
