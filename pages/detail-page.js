@@ -16,18 +16,20 @@ function submitComment() {
     h3.innerHTML = `${name} said:`
     p.innerHTML = msg.value
 
-    //comment.classList.add('')
-    
+    comment.classList.add('comment')
+
     comment.appendChild(h3)
-    console.log(comment, h3)
+    comment.appendChild(p)
 
-    document.body.appendChild(comment);
+    console.log(comment)
+    
+    const commentSection  = document.getElementById('comments')
+    console.log(commentSection)
+    commentSection.appendChild(comment)
 
-    /*
-    */
-
+    inputField.value = null
+    textArea.value = null
 }
 
 
-//comment.classList.add('')
-//comment.appendChild('h3', 'p')
+ //
